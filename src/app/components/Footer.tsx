@@ -111,7 +111,7 @@ export default function Footer() {
     ],
   ];
   return (
-    <div className=" bg-[#168bb9] py-9 ">
+    <div className=" bg-[#168bb9] px-4  py-9 ">
       <div className="max-w-[1300px] m-auto flex flex-col md:flex-row gap-4">
         <div className="max-w-[400px]">
           <div className=" flex items-center gap-2">
