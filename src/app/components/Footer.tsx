@@ -116,9 +116,9 @@ export default function Footer() {
         <div className="max-w-[400px]">
           <div className=" flex items-center gap-2">
             <FaGithub className="mt-1" />
-            <h1 className="">Improve this page</h1>
-            <BiSolidError />
-            <h1>Report page issue</h1>
+            <h1 className="text-white">Improve this page</h1>
+            <BiSolidError className="text-yellow-500 rounded-lg" />
+            <h1 className="text-white">Report page issue</h1>
           </div>
           <Image
             className=" mt-8"
@@ -128,7 +128,7 @@ export default function Footer() {
             alt="pic"
           ></Image>
           <div>
-            <p className="flex flex-col   ">
+            <p className="flex flex-col  text-white ">
               The content driving this site is licensed under the Creative
               Commons Attribution-ShareAlike 4.0 license.
             </p>

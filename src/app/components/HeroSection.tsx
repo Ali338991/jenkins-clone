@@ -5,7 +5,7 @@ export default function HeroSection() {
     <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 px-4 py-8">
       <div className=" hidden md:flex"></div>
       <div className=" flex  ">
-        <Image src="/jenkins.svg" height={356} width={350} alt="pic"></Image>
+        <Image src="/Jenkins.svg" height={356} width={350} alt="pic"/>
       </div>
 
       <div className="flex flex-col gap-6">
@@ -28,7 +28,7 @@ export default function HeroSection() {
           <button className=" bg-slate-200 p-2 rounded-lg text-blue-500">
             Download
           </button>
-          <button className=" bg-slate-500 p-2 rounded-lg ">
+          <button className=" bg-slate-200 p-2 rounded-lg ">
             Documentation
           </button>
         </div>
